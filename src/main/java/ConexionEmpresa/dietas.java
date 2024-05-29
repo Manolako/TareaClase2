@@ -1,4 +1,4 @@
 package ConexionEmpresa;
 
-public class empresa {
+public class dietas {
 }
