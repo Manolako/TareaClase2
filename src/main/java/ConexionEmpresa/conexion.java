@@ -10,7 +10,7 @@ public class conexion {
         private static final String USER = "root";
         private static final String PASSWORD = "1234";
 
-        public  Connection getConnection() {
+        public static Connection getConnection() {
             Connection conexion = null;
             try {
                 conexion = DriverManager.getConnection(URL, USER, PASSWORD);
