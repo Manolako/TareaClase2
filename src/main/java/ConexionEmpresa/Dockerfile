@@ -1,0 +1,5 @@
+FROM mysql:latest
+
+
+ENV MYSQL_DATABASE=empresa
+ENV MYSQL_ROOT_PASSWORD=1234
